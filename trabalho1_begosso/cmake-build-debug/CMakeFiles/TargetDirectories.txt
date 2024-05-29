@@ -1,0 +1,3 @@
+C:/TI/C++/Aula/Begosso/Exercicio/trabalho1_begosso/cmake-build-debug/CMakeFiles/trtabalho_begosso.dir
+C:/TI/C++/Aula/Begosso/Exercicio/trabalho1_begosso/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/TI/C++/Aula/Begosso/Exercicio/trabalho1_begosso/cmake-build-debug/CMakeFiles/rebuild_cache.dir
