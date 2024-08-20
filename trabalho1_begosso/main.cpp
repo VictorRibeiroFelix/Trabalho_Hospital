@@ -569,8 +569,8 @@ int main() {
     paciente paciX[10], paciY[10], paciZ[20];
     int paciT[10];
     int contX,contY, contZ, contX1,contY1, contZ1;
-    int contX2,contY2,contZ2, cont =5;
-/*
+    int cont =5;
+
     int codigoP;
     cout <<"\n\nLeitura cidade" << endl;
     leitu_cidade(cida);
@@ -603,7 +603,7 @@ int main() {
             buscaCid(cid, codigoC);
     }
     }
-*/
+
     int codigoM;
     cout <<"\n\nLeitura medicamento" << endl;
     leitu_Medic(medic);
@@ -614,7 +614,7 @@ int main() {
             buscaMedica(medic, codigoM);
         }
         }
-/*
+
     int codigoMe, codigoMe2;
     cout << "\n\nLeitura medico X" << endl;
     lerMedico(mediX, esp, cida, contX);
@@ -659,14 +659,14 @@ int main() {
     inclusaoPaciente(paciX, contX1, paciY, contY1, paciZ, contZ1);
     mostrarPaci(paciZ, contZ1);
 
-    for(contY2 = 0; contY2 < 20 && paciT[contY2 - 1] > 0; contY2++){
+    for(contY1 = 0; contY1 < 10 && paciT[contY1 - 1] > 0; contY1++){
         cout << "\nInforme o CPF do resgistro a ser excluido: ";
-        cin >> paciT[contY2];
+        cin >> paciT[contY1];
     }
-    contY2--;
-    exclusaoPaci(paciX, contX2, paciT, contY2, paciZ, contZ2);
-    mostarExcluPac(paciZ, contZ2);
-*/
+    contY1--;
+    exclusaoPaci(paciX, contX1, paciT, contY1, paciZ, contZ1);
+    mostarExcluPac(paciZ, contZ1);
+
     cout << "\n\nAgendamento: ";
     agendamento(consu,paciZ,mediZ,medic,cid, cont);
 
